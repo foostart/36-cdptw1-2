@@ -1,0 +1,218 @@
+.modun-1650 {
+  font-family: sans-serif;
+  font-size: 1.3rem;
+}
+.modun-1650 .header-top {
+  padding-top: 20px;
+}
+.modun-1650 .header-top .title {
+  font-weight: 500px;
+  font-size: 1.3rem;
+}
+.modun-1650 .header-top a {
+  float: left;
+  text-decoration: none;
+  color: #000;
+}
+.modun-1650 .header-top-right {
+  float: right;
+}
+.modun-1650 .header-top-right .border {
+  border-right: 1px solid #000;
+}
+.modun-1650 .header-top-right a:hover {
+  color: #fcb800;
+}
+.modun-1650 .header-top-right .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.modun-1650 .header-top-right .dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-left: 30px;
+}
+.modun-1650 .header-top-right .dropdown .dropdown-content li {
+  margin-left: -15%;
+  list-style: none;
+  width: 65%;
+  margin-top: 10%;
+}
+.modun-1650 .header-top-right .dropdown .dropdown-content li a {
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: -36%;
+  margin-left: 10%;
+}
+.modun-1650 .header-top-right .dropdown .dropdown-content li a:hover {
+  color: #CD9B33;
+}
+.modun-1650 .header-top-right .dropdown .type-1688-coins {
+  margin-top: 20%;
+}
+.modun-1650 .header-top-right .dropdown .type-1688-coins .type-1688-coins-national {
+  margin-top: -15%;
+  margin-left: -20%;
+}
+.modun-1650 .header-top-right .show-down-info i {
+  margin-left: -20%;
+}
+.modun-1650 .header-top-right .navbar-nav {
+  margin-left: 75px;
+}
+.modun-1650 .header-top-right .navbar-nav a img {
+  width: 150px;
+  height: 128px;
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-left: 50px;
+  z-index: 1;
+}
+.modun-1650 .header-top-right .navbar-nav .type-1688-link-menu {
+  color: #535353;
+  font-weight: bold;
+  z-index: 1;
+  position: relative;
+  background: none;
+}
+.modun-1650 .header-top-right .navbar-nav .type-1688-link-menu:hover {
+  color: #CD9B33;
+}
+.modun-1650 .header-top-right .navbar-nav .type-1688-border-type {
+  border-left: 1px solid #dedede;
+}
+.modun-1650 .header-top-right a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #000;
+}
+.modun-1650 .dropdown:hover .dropdown-content {
+  display: block;
+}
+.modun-1650 .dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+@media (max-width: 375px) {
+  .modun-1650 .title {
+    display: none;
+  }
+  .modun-1650 .header-top-right {
+    float: none !important;
+  }
+  .modun-1650 .lang {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .modun-1650 .navbar-nav {
+    margin-left: 0% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-link-menu {
+    margin-right: none !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-respon {
+    margin-left: 28% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-respon-main {
+    margin-bottom: -6% !important;
+  }
+  .modun-1650 .navbar-nav .dropdown-content {
+    margin-left: -10% !important;
+    padding-bottom: 10% !important;
+  }
+  .modun-1650 .navbar-nav .dropdown-content li a {
+    margin-top: -20% !important;
+    margin-left: 20% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-coins {
+    margin-top: 0% !important;
+    padding: 30% 0px 10% 0px !important;
+  }
+  .modun-1650 .header-top-right a {
+    padding: 0 10px !important;
+  }
+}
+@media (max-width: 268px) {
+  .modun-1650 .search-form:hover input {
+    max-width: 60px !important;
+  }
+  .modun-1650 .header-top-right {
+    float: none !important;
+  }
+  .modun-1650 .navbar-nav {
+    margin-left: 0% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-respon {
+    margin-left: 28% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-respon-main {
+    margin-bottom: -6% !important;
+  }
+  .modun-1650 .navbar-nav .dropdown-content {
+    margin-left: -10% !important;
+    padding-bottom: 10% !important;
+  }
+  .modun-1650 .navbar-nav .dropdown-content li a {
+    margin-top: -20% !important;
+    margin-left: 20% !important;
+  }
+  .modun-1650 .navbar-nav .type-1688-coins {
+    margin-top: 0% !important;
+    padding: 30% 0px 10% 0px !important;
+  }
+  .modun-1650 .header-top-right a {
+    padding: 0 10px !important;
+  }
+}
+@media all and (max-width: 480px) {
+  .title {
+    display: none;
+  }
+  .lang {
+    margin-left: 120px;
+    margin-top: 10px;
+  }
+  .header-top-right {
+    float: none !important;
+  }
+  .navbar-nav {
+    margin-left: 0% !important;
+  }
+  .navbar-nav .type-1688-link-menu {
+    margin-right: none !important;
+  }
+  .navbar-nav .type-1688-respon {
+    margin-left: 28% !important;
+  }
+  .navbar-nav .type-1688-respon-main {
+    margin-bottom: -6% !important;
+  }
+  .navbar-nav .dropdown-content {
+    margin-left: -10% !important;
+    padding-bottom: 10% !important;
+  }
+  .navbar-nav .dropdown-content li a {
+    margin-top: -20% !important;
+    margin-left: 20% !important;
+  }
+  .navbar-nav .type-1688-coins {
+    margin-top: 0% !important;
+    padding: 30% 0px 10% 0px !important;
+  }
+  .header-top-right a {
+    padding: 0 10px !important;
+  }
+}
+@media all and (max-width: 1024px) {
+  .title {
+    display: none;
+  }
+  .header-top-right {
+    float: none !important;
+  }
+}

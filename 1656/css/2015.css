@@ -1,0 +1,87 @@
+.type-2015 {
+  margin-top: 30px;
+}
+.type-2015 .grey-section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  background-color: #f6f6f6;
+  border-bottom: 1px solid #f1f1f1;
+}
+.type-2015 .grey-section .section-title-wrapper {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  max-width: 1140px;
+  text-align: center;
+  margin: 0 auto 10px;
+}
+.type-2015 .grey-section .section-title-wrapper h5 {
+  color: #666666;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+.type-2015 .grey-section .section-title-wrapper h3 {
+  position: relative;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.type-2015 .grey-section .section-title-wrapper h3::after {
+  left: 50%;
+  width: 30px;
+  height: 3px;
+  content: '';
+  bottom: -3px;
+  display: block;
+  margin-left: -15px;
+  position: absolute;
+  background-color: #e74848;
+}
+.type-2015 .grey-section .section-title-wrapper .section-desc {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto 15px;
+}
+.type-2015 .grey-section .section-title {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  text-transform: uppercase;
+}
+.type-2015 .grey-section .client-item {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  margin: 0 auto 30px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+}
+.type-2015 .grey-section .client-item a {
+  width: 100%;
+  opacity: 0.5;
+  padding: 10px;
+  display: block;
+}
+.type-2015 .grey-section .client-item a:hover {
+  opacity: 1;
+}
+@media all and (max-width: 480px) {
+  .client-item img {
+    position: relative;
+    left: 30%;
+  }
+}
+@media all and (max-width: 1024px) {
+  .client-item img {
+    position: relative;
+    left: 30%;
+  }
+}
