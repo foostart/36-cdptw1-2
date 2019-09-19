@@ -24,6 +24,7 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/2015.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     </head>
     <body>
         <?php include './2015-content.php'; ?>

@@ -31,59 +31,14 @@ $url_path = str_replace('\\', '/', $url_path);
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-1-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-2-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-3-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-4-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-5-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2 col-xs-12">
-                            <div class=" client-block">
-                                <div class="client-item client-item-">
-                                    <a href="#" title="Client Logo">
-                                        <img src="images/client-1-logo.png" alt="Clients Logo">
-                                    </a>
-                                </div>
-                            </div>
+                        <div class="container">
+                           <section class="customer-logos slider">
+                              <div class="slide"><img src="images/client-1-logo.png" alt="Clients Logo"></div>
+                              <div class="slide"><img src="images/client-2-logo.png" alt="Clients Logo"></div>
+                              <div class="slide"><img src="images/client-3-logo.png" alt="Clients Logo"></div>
+                              <div class="slide"><img src="images/client-4-logo.png" alt="Clients Logo"></div>
+                              <div class="slide"><img src="images/client-5-logo.png" alt="Clients Logo"></div>
+                           </section>
                         </div>
                     </div>
                 </div>
@@ -91,3 +46,27 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.customer-logos').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: true,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            settings: {
+                slidesToShow: 3
+            }
+        }]
+    });
+});
+</script>
