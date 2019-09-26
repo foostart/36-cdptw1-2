@@ -22,7 +22,32 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
         <div class="col-md-6 col-xs-12">
           <div class="header-top-right"> 
-               <ul class="nav navbar-nav">
+            <div class="topnav" id="myTopnav">
+              <a href="#home" class="active">Store Location</a>
+              <a href="#news">Track Your Oder</a>
+              <div class="dropdown type-1688-border-type show-down-info"> 
+                <a href="#contact" class="type-1688-link-menu">USD</a>
+                <i class="fa fa-angle-down" aria-hidden="true"></i>
+                  <ul class="dropdown-content type-1688-coins">
+                    <li><a href="#" class="type-1688-coins-national">UER</a></li>
+                  </ul>
+              </div>
+              <a href="#about">English</a>
+              <div>
+                <span><img src="http://<?php echo $url_path ?>/images/en.png">
+                        <a href="#" class="type-1688-link-menu">English</a></span>
+                        <i class="fa fa-angle-down" aria-hidden="true"></i>
+                        <ul class="dropdown-content">
+                          <span>
+                            <li><img src="https://martfury02.magebig.com/media/wysiwyg/magebig/languages/du.png" alt="du" width="18" height="12"><a href="#">Dutch</a></li></span>
+                            <li><img src="https://martfury02.magebig.com/media/wysiwyg/magebig/languages/ar2.png" alt="ar2" width="18" height="12"><a href="#">Arabic</a></li>
+                        </ul>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+              <!--  <ul class="nav navbar-nav">
                     <li class="dropdown type-1688-respon-main">
                         <a href="#" class="type-1688-link-menu ">Store Location</a>
                     </li>
@@ -46,10 +71,20 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li><img src="https://martfury02.magebig.com/media/wysiwyg/magebig/languages/ar2.png" alt="ar2" width="18" height="12"><a href="#">Arabic</a></li>
                         </ul>
                     </li>
-                </ul>
+                </ul> -->
             </div>
           </div>
         </div>
      </div>
   </div>
 </div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

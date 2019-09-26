@@ -13,23 +13,20 @@
         require_once($dir_block . '/libs/lessc.inc.php');
     }
     $less = new lessc;
-    $less->compileFile('less/1650.less', 'css/1650.css');
+    $less->compileFile('less/1656.less', 'css/1656.css');
 ?>
-<html>
+<html lang="en">
     <head>
-        <title>Mô Đun 1650</title>
+        <title>1656</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Basic usage demo">
-        <meta name="author" content="David Deutsch">
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/1650.css" rel="stylesheet" type="text/css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/1650.js" type="text/javascript"></script>
+        <link href="<?php echo $url_path ?>/css/1656.css" rel="stylesheet" type="text/css"/>
+        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     </head>
     <body>
-        <?php include './1650-content.php'; ?>
+        <?php include './1656-content.php'; ?>
     </body>
 </html>
